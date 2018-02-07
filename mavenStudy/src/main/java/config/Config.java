@@ -1,4 +1,4 @@
-package com.denofprogramming.config;
+package config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -7,8 +7,8 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.JstlView;
 import org.springframework.web.servlet.view.UrlBasedViewResolver;
 
-import com.denofprogramming.random.DefaultRandomNumberGenerator;
-import com.denofprogramming.random.RandomGenerator;
+import random.DefaultRandomNumberGenerator;
+import random.RandomGenerator;
 
 /**
  * @author denOfProgramming

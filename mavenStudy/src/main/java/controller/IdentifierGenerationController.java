@@ -1,19 +1,18 @@
-package com.denofprogramming.controller;
+package controller;
 
-import javax.inject.Inject;
-
+import random.GeneratedRandomIdentifier;
+import random.RandomGenerator;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.log4j.Logger;
-import org.apache.log4j.spi.LoggerFactory;
-//spring imports
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.denofprogramming.random.GeneratedRandomIdentifier;
+import javax.inject.Inject;
+
+//spring imports
 // denOfProgramming imports
-import com.denofprogramming.random.RandomGenerator;
 //logger imports
 //import org.apache.log4j.Logger;
 

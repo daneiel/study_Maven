@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.denofprogramming.random;
+package random;
 
 import org.apache.commons.math3.random.RandomDataGenerator;
 
